@@ -195,10 +195,11 @@ section {
     width: 350px;
     height: 350px;
     border-radius: 50%;
-    border: 1px solid var(--main-color);
+    border: 2px solid var(--main-color);
     box-shadow: 0 0 20px var(--bg-color);
     animation: floatimage 4s ease-in-out infinite;
     padding: auto;
+    padding: 10px;
 }
 
 @keyframes floatimage {
@@ -229,8 +230,8 @@ section {
 .about-img img {
     height: 450px;
     width: 350px;
-    border-radius: 10px;
-    padding: 1rem;
+    border-radius: 5px;
+    padding: 10px;
     border: 2px solid var(--main-color);
     box-shadow: 0 10px 25px var(--bg-color);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -928,7 +929,7 @@ section {
     .home-img img {
         margin-top: 20%;
         width: 300px;
-        height: 250px;
+        height: 350px;
     }
 
     .about-content h2 {
@@ -944,8 +945,8 @@ section {
     }
 
     .about-img img {
-        height: 300px;
-        width: 250px;
+        height: 350px;
+        width: 300px;
     }
 
     .about-content .btn {
@@ -984,7 +985,7 @@ section {
     }
 
     .project{
-        margin-top: -150px;
+        margin-top: -100px;
     }
 
     .progress-bar::after {
