@@ -947,7 +947,7 @@ section {
     .about-img img {
         height: 400px;
         width: 300px;
-        margin-top: 10px;
+        margin-top: 50px;
     }
 
     .about-content .btn {
@@ -1036,5 +1036,11 @@ section {
 
     .footer .footer-icontop a {
         font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .about-img img{
+        margin-top: 50px;
     }
 }
