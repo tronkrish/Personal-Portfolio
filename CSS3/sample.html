@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="./CSS3/style.css">
+    <link rel="stylesheet" href="./sample.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 
@@ -24,6 +24,7 @@
             <li><a href="#education">Education</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
@@ -52,8 +53,6 @@
             </div>
 
             <a href="./CSS3/Front-End Developer.pdf" class="btn" target="_blank">View Resume</a>
-            <a href="./CSS3/Front-End Developer.pdf" class="btn" target="_blank" download id="btnss">Download Resume</a>
-
         </div>
 
         <div class="home-img">
@@ -73,9 +72,9 @@
             <p>
                 Hi, I'm Sriprasanna, As a passionate and dedicated front-end developer, I specialize in creating
                 responsive and user-friendly web applications. With a strong foundation in HTML, CSS, and JavaScript,
-                along with hands-on experience in React JS. and I Recently Completed the <b>IBM Cloud Application Development Foundations Course on Coursera</b>.
+                along with hands-on experience in React JS.
             </p>
-            <a href="https://www.credly.com/badges/7228fc24-bd98-495f-b2e7-82e15cb1e136/whatsapp" class="btn">Certification</a>
+            <a href="#" class="btn">Read More</a>
         </div>
     </section>
 
@@ -221,35 +220,55 @@
         </div>
     </section>
 
-    <!-- Footer Section -->
-    <footer class="footer">
+    <!-- Contact Section -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
         <!-- Social Media Icons -->
+
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer class="footer">
+
         <div class="social-media">
-            <a href="https://www.linkedin.com/in/prasanna85/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://github.com/tronkrish/" target="_blank"><i class="fa-brands fa-github"></i></a>
-            <a href="https://www.instagram.com/_tron_krish_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-square-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/prasanna85/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/tronkrish/"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/_tron_krish_/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://web.whatsapp.com/"><i class="fa-brands fa-square-whatsapp"></i></a>
         </div>
 
-        <!-- Contact Details -->
         <div class="details">
-            <h3>Contact Details</h3>
-            <p>Contact Number: <span>+91 7397169316</span></p>
-            <p>Email ID: <span>sriprasanna8585@gmail.com</span></p>
+            <h2>Contact Details</h2>
+            <p>Contact Number - <span>+91 7397169316</span></p>
+            <p>E-mail Id - <span>sriprasanna8585@gmail.com</span></p>
         </div>
 
-        <!-- Footer Text -->
         <div class="footer-text">
-            <p>Copyright &copy; 2024 @ SriPrasanna Guided by SDLC (Skill Development Learning Center) | All Rights
+            <p>Copyright &copy; 2024 @ SriPrasanna Guided by SDLC (Skill Developement Learning Center)| All Rights
                 Reserved.</p>
         </div>
 
-        <!-- Back to Top Button -->
         <div class="footer-icontop">
             <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
         </div>
     </footer>
-
 
     <script>
         // JavaScript to toggle the mobile menu
@@ -261,7 +280,7 @@
         });
 
 
-        const roles = ["Frontend Developer", "MERN Stack Developer", "Web Designer"];
+        const roles = ["Frontend Developer", "Web Developer", "Web Designer"];
         let index = 0;
         let charIndex = 0;
         const typingSpeed = 150; // Typing speed in milliseconds
