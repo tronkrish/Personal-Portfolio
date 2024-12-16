@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="./CSS3/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="loading-screen">
+        <div class="loading"></div>
+        <p>Please Wait......</p>
+    </div>
+    <!-- Header Section -->
+    <nav class="navbar">
+        <div class="logo">Sriprasanna</div>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-list" id="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1>Sriprasanna</h1>
+            <h3>I'm a <span id="role"></span></h3>
+
+            <!-- Social Media Icons -->
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/prasanna85/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/tronkrish/" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.instagram.com/_tron_krish_/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://web.whatsapp.com/" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+
+            <a href="./CSS3/Front-End Developer.pdf" class="btn" target="_blank">View Resume</a>
+            <a href="./CSS3/Front-End Developer.pdf" class="btn" target="_blank" download id="btnss">Download Resume</a>
+
+        </div>
+
+        <div class="home-img">
+            <img src="./CSS3/image2.jpeg" alt="Profile Picture">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./CSS3/Image3.jpeg" alt="Profile Image">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">ABOUT <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>
+                Hi, I'm Sriprasanna, As a passionate and dedicated front-end developer, I specialize in creating
+                responsive and user-friendly web applications. With a strong foundation in HTML, CSS, and JavaScript,
+                along with hands-on experience in React JS. and I Recently Completed the <b>IBM Cloud Application Development Foundations Course on Coursera</b>.
+            </p>
+            <a href="https://www.credly.com/badges/7228fc24-bd98-495f-b2e7-82e15cb1e136/whatsapp" class="btn" target="_blank">Certification</a>
+        </div>
+    </section>
+
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <main class="row">
+            <!-- Education Column -->
+            <div class="col">
+                <header class="title">
+                    <h2>EDUCATION</h2>
+                </header>
+                <div class="content">
+
+                    <div class="box">
+                        <h4>2020 - 2023 | Bachelor's</h4>
+                        <h3>B.Sc - Information Technology</h3>
+                        <p>Erode Arts and Science College, Erode | GPA - 64%</p>
+                    </div>
+                  
+                    <div class="box">
+                        <h4>2018 - 2019 | HSC</h4>
+                        <h3>High Secondary Course</h3>
+                        <p>Government Higher Secondary School Iduvampalayam, Tirupur | Percentage - 60%</p>
+                    </div>
+                    
+                    <div class="box">
+                        <h4>2016 - 2017 | SSLC</h4>
+                        <h3>Secondary School Leaving Certificate</h3>
+                        <p>Government Higher Secondary School Iduvampalayam, Tirupur | Percentage - 90%</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!-- Experience Column -->
+            <div class="col">
+                <header class="title">
+                    <h2>EXPERIENCE</h2>
+                </header>
+                <div class="content">
+                    <div class="box">
+                        <h2>Client Partner - Specified Denials</h2>
+                        <h3 class="office">Access Healthcare Services Private Limited</h3>
+                        <p>Tidle Park - Coimbatore, Tamilnadu, India | OCT 2023 - MAY 2024</p>
+                        <h4 class="tasks">Achievements and Tasks</h4>
+                        <ul>
+                            <li>Worked in Healthcare and Insurance Claims. Meet all Individual and Team Productivity
+                                Requirements.</li>
+                            <li>Proficient in Utilizing Athenahealth Workspace for Healthcare and Insurance Claims
+                                Processing.</li>
+                            <li>Worked With Management to Meet Tasks on or Within Time.</li>
+                            <li>Pitching in to Assist Others With Claims.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="row">
+            <!-- Programming Skills -->
+            <div class="col">
+                <div class="sub-title">
+                    <h2>Programming Skills</h2>
+                </div>
+                <div class="skills-container">
+                    <div class="skill">
+                        <div class="subject">HTML5</div>
+                        <div class="progress-bar" value="94%">
+                            <div class="progress-line" style="max-width: 94%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="subject">CSS3</div>
+                        <div class="progress-bar" value="83%">
+                            <div class="progress-line" style="max-width: 83%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="subject">JavaScript</div>
+                        <div class="progress-bar" value="45%">
+                            <div class="progress-line" style="max-width: 45%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools Skills -->
+            <div class="col">
+                <div class="sub-title">
+                    <h2>Tools Knows</h2>
+                </div>
+                <div class="skills-container">
+                    <div class="skill">
+                        <div class="subject">Visual Studio Code</div>
+                        <div class="progress-bar" value="77%">
+                            <div class="progress-line" style="max-width: 77%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="subject">Git & GitHub</div>
+                        <div class="progress-bar" value="68%">
+                            <div class="progress-line" style="max-width: 68%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="subject">Canva</div>
+                        <div class="progress-bar" value="64%">
+                            <div class="progress-line" style="max-width: 64%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Project Section -->
+    <section class="project" id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class="project-container">
+            <!-- Project 1 -->
+            <div class="project-box">
+                <img src="./CSS3/First Project.png" alt="Camping Gear Website">
+                <div class="project-layer">
+                    <a href="https://tronkrish.github.io/Camping-Gear-Website/" target="_blank">Camping Gear Website</a>
+                    <p>This responsive website showcases a variety of camping gear. Built with HTML and CSS, it focuses
+                        on mobile responsiveness, ensuring great visuals across devices of all sizes. Features include
+                        an intuitive layout and user-friendly navigation.</p>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-box">
+                <img src="./CSS3/Third Project.png" alt="Doorstep Car Wash">
+                <div class="project-layer">
+                    <a href="https://tronkrish.github.io/Doorstep-Car-Wash/" target="_blank">Doorstep Car Wash</a>
+                    <p>This project is a responsive landing page for a doorstep car washing service. Using HTML, CSS,
+                        and JavaScript, the design ensures intuitive navigation and accessibility on desktops, tablets,
+                        and mobile phones.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <!-- Social Media Icons -->
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/prasanna85/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/tronkrish/" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/_tron_krish_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-square-whatsapp"></i></a>
+        </div>
+
+        <!-- Contact Details -->
+        <div class="details">
+            <h3>Contact Details</h3>
+            <p>Contact Number: <span>+91 7397169316</span></p>
+            <p>Email ID: <span>sriprasanna8585@gmail.com</span></p>
+        </div>
+
+        <!-- Footer Text -->
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 @ SriPrasanna Guided by SDLC (Skill Development Learning Center) | All Rights
+                Reserved.</p>
+        </div>
+
+        <!-- Back to Top Button -->
+        <div class="footer-icontop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="./JS6/script.js"></script>
+
+</body>
+
+</html>
